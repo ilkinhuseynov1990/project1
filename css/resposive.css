@@ -1,0 +1,49 @@
+@media only screen and (max-width: 768px){
+.logo_content{
+	width: auto;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.header {
+    min-width: auto;
+    width: auto;
+    height: 78px;
+    font-size: 0.8em;
+}
+
+}
+
+@media screen and (min-width: 768px){
+	.header {
+    min-width: 750px;
+    height: 78px;
+    font-size: 0.8em;
+}
+	.logo_content{
+	width: 750px;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+}
+
+@media screen and (min-width: 992px){
+.logo_content{
+	width: 970px;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+
+@media screen and (min-width: 1200px){
+	.logo_content{
+	width: 1170px;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
